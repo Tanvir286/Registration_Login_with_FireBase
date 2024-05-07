@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+}
+
+ol,ul,li{
+    list-style: none;
+}
+
+
+.flexBox {
+    display: flex;
+  }
+
+  .first-half{
+    width: 50%;
+    margin-right: auto;
+    
+  }
+
+  .second-half{
+    width: 50%;
+   
+  }
+
+  .banner_img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    border-radius: 25%;
+  }
+
+
+.Registration_box{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+
+
+.shadow{
+    position: relative;
+    border-radius: 20px;
+    padding: 40px 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: -3px 0px 8px 0px rgba(0,0,0,0.75);
+}
+
+
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root{
+    width: 440px;
+    margin:  10px 0 !important;
+}
+
+.title{
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+
+.eye-icon{
+    position: absolute;
+    right: 56px;
+    top: 390px;
+}
+
+.eye-icon2{
+    position: absolute;
+    right: 56px;
+    top: 335px;
+}
+
+
+
+.term_input{
+    margin-right: 10px ;
+    margin-top: 10px;
+    color:#fff;
+}
+
+
+.submit-button {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color: #2f5ce4;
+    width: 440px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: #fff;
+   
+  }
+  
+ 
+
+ 
+  .line{
+   display: flex;
+   align-items: center;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   justify-content: center;
+  }
+
+
+  .spanbar{
+    width: 180px;
+    height: 1px;
+    background-color: black;
+  }
+
+
+
+  .auth{
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    column-gap: 17px;
+    margin-top: 15px;
+    justify-content: center;
+  }
+
+
+
+  .auth_pic{
+    width: 30px;
+    height: 30px;
+  }
+
+
+  .auth_flex{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.582);
+    border-radius: 15px;
+  }
+
+
+  .errorBox{
+     width: 100%;
+  }
+
+  .load{
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .subpart{
+    font-size: 18px;
+    text-align: center;
+    color: rgb(66, 66, 230);
+    margin-top: 10px;
+  }
+
+  
+  .forgot_pass{
+    text-align: right;
+    font-size: 18px;
+  }
